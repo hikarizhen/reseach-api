@@ -1,0 +1,16 @@
+openapi: "3.0.3"
+info:
+  title: "API-SAMPLE"
+  version: "1.0.0"
+
+paths:
+  "/helloWorld":
+    get:
+      responses:
+        "200":
+          description: "test-ok"
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "Hello World"
